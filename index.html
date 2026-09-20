@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#efe4d3" />
+  <title>Islam & Farah — Wedding Invitation</title>
+ <!-- WhatsApp / Facebook Link Preview -->
+<meta property="og:type" content="website">
+<meta property="og:title" content="Islam & Farah 💍">
+<meta property="og:description" content="دعوة حفل زفاف إسلام وفرح | 3rd October 2026">
+<meta property="og:image" content="">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Islam & Farah 💍">
+<meta name="twitter:description" content="دعوة حفل زفاف إسلام وفرح | 3rd October 2026">
+<meta name="twitter:image" content="https://yourusername.github.io/your-repo-name/assets/download.png">
+<meta property="og:image:type" content="image/png">
+<meta property="og:image:secure_url" content="https://yourusername.github.io/your-repo-name/assets/download.png">
+<meta property="og:url" content="https://yourusername.github.io/your-repo-name/">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Islam & Farah Wedding Invitation">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Great+Vibes&family=Amiri:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main class="scene">
+    <section class="envelope-screen" id="envelopeScreen" aria-label="Wedding invitation envelope">
+      <div class="env-stage">
+        <div class="envelope" id="envelope">
+          <div class="env-body"></div>
+          <div class="env-flap-side env-flap-left"></div>
+          <div class="env-flap-side env-flap-right"></div>
+          <div class="env-pocket"></div>
+          <div class="env-lace" aria-hidden="true">
+            <i class="lace lace-l"></i>
+            <i class="lace lace-r"></i>
+          </div>
+          <div class="env-flap-top"></div>
+          <div class="env-names" aria-hidden="true">
+            <span>Islam</span><b>&amp;</b><span>Farah</span>
+          </div>
+          <button class="seal-btn" id="openInvitation" type="button" aria-label="Open the invitation">
+            <img src="assets/wax-seal.png" alt="" />
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <section class="invitation-screen" id="invitationScreen" aria-hidden="true">
+      <div class="stage">
+        <div class="card">
+
+          <!-- extra flowers at the bottom. They are fixed: they do not move when you scroll -->
+          <div class="deco" aria-hidden="true">
+            <img class="fl fl-br2" src="assets/burgundy-flower.png" alt="" />
+            <img class="fl fl-bc" src="assets/burgundy-flower.png" alt="" />
+            <img class="fl fl-br" src="assets/burgundy-flower.png" alt="" />
+          </div>
+
+          <div class="scroll-progress" aria-hidden="true"><span id="scrollProgress"></span></div>
+
+          <div class="card-window" id="cardWindow">
+          <div class="card-column" id="cardColumn">
+
+            <!-- 1 : like the reference card (Islam first, then Farah) -->
+            <article class="sec panel-intro">
+              <div class="blk">
+                <img class="basmala" src="assets/basmala-burgundy.png" alt="بسم الله الرحمن الرحيم" />
+              </div>
+              <div class="blk">
+                <p class="verse-ar" lang="ar" dir="rtl">وَخَلَقْنَاكُمْ أَزْوَاجًا</p>
+                <p class="verse">“And We created you in pairs”</p>
+                <p class="reference">(Al-Qur’an 78:8)</p>
+              </div>
+              <div class="blk">
+                <h1 class="name">Islam</h1>
+                <div class="heart-divider"><i></i><b>♥</b><i></i></div>
+                <p class="role">Groom</p>
+              </div>
+              <div class="blk">
+                <h1 class="name">Farah</h1>
+                <div class="heart-divider"><i></i><b>♥</b><i></i></div>
+                <p class="role">Bride</p>
+              </div>
+              <div class="blk">
+                <p class="wed-date">3 October 2026</p>
+              </div>
+            </article>
+
+            <!-- 2 : details -->
+            <article class="sec panel-details">
+              <p class="section-kicker">YOU ARE INVITED</p>
+              <h2>Islam &amp; Farah</h2>
+              <p class="invite-text">
+                Together with their families,<br>
+                request the pleasure of your company<br>
+                at their wedding celebration.
+              </p>
+              <div class="details">
+                <div class="detail">
+                  <span class="icon">♔</span>
+                  <span class="label">DATE</span>
+                  <strong>3 October 2026</strong>
+                </div>
+                <div class="detail">
+                  <span class="icon">◷</span>
+                  <span class="label">TIME</span>
+                  <strong>9:00 PM</strong>
+                </div>
+                <div class="detail">
+                  <span class="icon">⌖</span>
+                  <span class="label">VENUE</span>
+                  <strong>Reviera Villa</strong>
+                </div>
+              </div>
+            </article>
+
+            <!-- 3 : counting down -->
+            <article class="sec panel-countdown">
+          <div class="cd-petals" aria-hidden="true">
+            <span style="--x:6%;--s:18px;--d:11s;--delay:-2s;--sway:26px"></span>
+            <span style="--x:17%;--s:14px;--d:13s;--delay:-7s;--sway:-22px"></span>
+            <span style="--x:28%;--s:22px;--d:10s;--delay:-4s;--sway:30px"></span>
+            <span style="--x:40%;--s:15px;--d:14s;--delay:-9s;--sway:-28px"></span>
+            <span style="--x:52%;--s:20px;--d:12s;--delay:-1s;--sway:24px"></span>
+            <span style="--x:63%;--s:14px;--d:15s;--delay:-11s;--sway:-26px"></span>
+            <span style="--x:74%;--s:24px;--d:11s;--delay:-6s;--sway:32px"></span>
+            <span style="--x:85%;--s:16px;--d:13s;--delay:-3s;--sway:-24px"></span>
+            <span style="--x:94%;--s:19px;--d:12s;--delay:-8s;--sway:20px"></span>
+          </div>
+          <img class="cd-bouquet cd-bouquet-left" src="assets/floral-decoration.webp" alt="" />
+          <img class="cd-bouquet cd-bouquet-right" src="assets/floral-decoration.webp" alt="" />
+
+          <div class="cd-inner">
+            <img class="cd-top-divider" src="assets/floral-divider.png" alt="" />
+            <h2>Counting Down</h2>
+            <p class="cd-subtitle">Until we celebrate our wedding together</p>
+
+            <div class="cd-info">
+              <img class="cd-mini-divider" src="assets/floral-divider.png" alt="" />
+              <p class="cd-kicker">WEDDING CELEBRATION</p>
+              <p class="cd-note">The celebration will take place at</p>
+              <p class="cd-time">9:00 PM</p>
+              <div class="cd-date">
+                <span>Saturday</span><b>3</b><span>October</span>
+              </div>
+              <p class="cd-year">2026</p>
+            </div>
+
+            <div class="cd-grid" aria-label="Countdown to the wedding">
+              <div class="cd-card"><strong id="days">00</strong><span>Days</span></div>
+              <div class="cd-card"><strong id="hours">00</strong><span>Hours</span></div>
+              <div class="cd-card"><strong id="minutes">00</strong><span>Minutes</span></div>
+              <div class="cd-card"><strong id="seconds">00</strong><span>Seconds</span></div>
+            </div>
+          </div>
+        </article>
+
+            <!-- 4 : location -->
+            <article class="sec panel-location">
+              <p class="section-kicker">OUR VENUE</p>
+              <h2>Reviera Villa</h2>
+              <p class="location-copy">Tap the map to open the exact location.</p>
+
+              <a class="map-card" href="https://maps.app.goo.gl/kYzdHPE2A5vraF3x5?g_st=ic" target="_blank" rel="noopener noreferrer" aria-label="Open wedding location in Google Maps">
+                <div class="map-art" aria-hidden="true">
+                  <span class="road road-a"></span>
+                  <span class="road road-b"></span>
+                  <span class="road road-c"></span>
+                  <span class="water"></span>
+                  <span class="map-pin"></span>
+                  <span class="map-label">Reviera Villa</span>
+                </div>
+              </a>
+
+              <a class="location-btn" href="https://maps.app.goo.gl/kYzdHPE2A5vraF3x5?g_st=ic" target="_blank" rel="noopener noreferrer">
+                <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2a7 7 0 0 0-7 7c0 5.2 7 13 7 13s7-7.8 7-13a7 7 0 0 0-7-7Zm0 9.5A2.5 2.5 0 1 1 12 6.5a2.5 2.5 0 0 1 0 5Z"/></svg>
+                <span>Open in Google Maps</span>
+                <span class="arrow" aria-hidden="true">↗</span>
+              </a>
+            </article>
+
+            <!-- 5 : wishes -->
+            <article class="sec panel-wishes">
+              <p class="section-kicker">WISHES</p>
+              <h2>أمنيات وتهاني</h2>
+              <p class="wish-copy">اكتب أمنيتك للعروسين.</p>
+
+              <form class="wish-form" id="wishForm" autocomplete="off">
+                <input id="wishName" type="text" maxlength="28" placeholder="اسمك" dir="auto" />
+                <textarea id="wishText" rows="3" maxlength="220" placeholder="اكتب أمنيتك هنا…" dir="auto" required></textarea>
+                <button type="submit" id="wishSubmit">أرسل الأمنية ♥</button>
+              </form>
+              <p class="wish-thanks" id="wishThanks">وصلت أمنيتك — شكراً لك ♥</p>
+              <p class="wish-status" id="wishStatus"></p>
+
+              <ul class="wish-list" id="wishList"></ul>
+            </article>
+
+            <!-- 5 : closing -->
+            <article class="sec panel-closing">
+              <img class="divider-image" src="assets/floral-divider.png" alt="" />
+              <p class="closing">Together Forever</p>
+              <div class="heart">♥</div>
+            </article>
+          </div>
+          </div>
+
+          <div class="scroll-hint" id="scrollHint">
+            <span>Scroll to discover</span>
+            <i></i>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <audio id="bgMusic" loop preload="none">
+    <source src="assets/wedding-song.ogg" type="audio/ogg">
+    <source src="assets/wedding-song.mp3" type="audio/mpeg">
+  </audio>
+  <button class="sound-toggle" id="soundToggle" type="button" aria-label="Mute music" aria-pressed="false">
+    <svg class="ic-on" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 9v6h4l5 5V4L8 9H4Zm11.5 3a4.5 4.5 0 0 0-2.5-4.03v8.06A4.5 4.5 0 0 0 15.5 12Zm2.5 0c0 2.49-1.36 4.66-3.38 5.82l1.01 1.75C18.15 18.03 20 15.23 20 12s-1.85-6.03-4.37-7.57l-1.01 1.75A6.5 6.5 0 0 1 18 12Z"/></svg>
+    <svg class="ic-off" viewBox="0 0 24 24" aria-hidden="true"><path d="M16.5 12a4.5 4.5 0 0 0-1.06-2.9l-1.06 1.06a3 3 0 0 1 .12 3.68l1.06 1.06A4.48 4.48 0 0 0 16.5 12ZM19 12a6.98 6.98 0 0 0-2.35-5.24l-1.06 1.06A5.48 5.48 0 0 1 17.5 12a5.48 5.48 0 0 1-1.91 4.18l1.06 1.06A6.98 6.98 0 0 0 19 12ZM4.27 3 3 4.27 7.73 9H4v6h4l5 5v-6.73l4.01 4.01A6.95 6.95 0 0 1 15.02 18l1.08 1.08A8.95 8.95 0 0 0 18.66 17l2.07 2.07L22 17.8 4.27 3ZM12 4l-2.2 2.2L12 8.4V4Z"/></svg>
+  </button>
+  <canvas id="shower" aria-hidden="true"></canvas>
+
+  <!-- Firebase (wishes wall: live save + per-guest delete). See firebase-config.js for setup. -->
+  <script src="https://www.gstatic.com/firebasejs/10.13.2/firebase-app-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/10.13.2/firebase-auth-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/10.13.2/firebase-firestore-compat.js"></script>
+  <script src="firebase-config.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
